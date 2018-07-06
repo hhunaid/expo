@@ -35,6 +35,7 @@ Pod::Spec.new do |s|
     ss.dependency 'GPUImage', '~> 0.1.7'
     ss.dependency 'Branch', '~> 0.14.12'
     ss.dependency 'Google-Mobile-Ads-SDK', '~> 7.22.0'
+    ss.dependency 'React'
   end
 
   s.subspec "CPP" do |ss|
